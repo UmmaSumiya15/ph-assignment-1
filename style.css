@@ -1,0 +1,67 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+    font-family: "Azeret Mono", monospace;
+
+}
+
+body{
+
+}
+
+section{
+    margin-top: 50px;
+
+}
+
+.banner{
+    background-image: url(./assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.banner-img img{
+    width: 200px;
+    height: 200px;
+    /* border: 2px solid black; */
+}
+.banner-content{
+    text-align: center;
+    
+}
+.banner-content h1{
+    color: #0D1321;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin-bottom: 20px;
+    
+}
+.banner-content p{
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    
+}
+
+.banner-btn button{
+    background-color: black;
+    color: #FFF;
+    text-align: center;
+    padding: 15px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.banner-btn button a {
+    color: #FFF; 
+    text-decoration: none;
+}
